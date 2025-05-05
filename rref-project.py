@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+
+"""
+RREF Project - Linear Algebra 1
+This script allows the user to input a matrix and returns its Reduced Row Echelon Form (RREF).
+Uses sympy for symbolic computation.
+Author: Utsha Saha
+Course: Linear Algebra 1
+"""
+
 def rref(matrix): # RREF Algorithm / Function
     rows = len(matrix)
     cols = len(matrix[0])
